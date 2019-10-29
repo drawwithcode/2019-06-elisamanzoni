@@ -63,7 +63,7 @@ function setup() {
   radio4.position(3*(windowWidth/4), 0);
   radio4.style('width', '100px');
 
-  textSize(50);
+  textSize(70);
   textFont('Staatliches');
   fill(255, 0, 0);
 
@@ -72,7 +72,7 @@ var title = selectAll('h1');
 console.log(title);
 
 title.forEach(function(t){
-  t.style('font-size:20px');
+  t.style('font-size:50px');
   t.style('font-family:Staatliches');
   t.position((windowWidth/2)+20,windowHeight/2);
 })
