@@ -63,7 +63,7 @@ function setup() {
   radio4.position(3 * (windowWidth / 4), 0);
   radio4.style('width', '100px');
 
-  textSize(70);
+  textSize(60);
   textFont('Staatliches');
   fill(255, 0, 0);
 
@@ -79,10 +79,11 @@ function setup() {
 
   //link
   button = createButton('click me to discover the meanings of the words');
-  button.position((windowWidth / 2) + 20, (windowHeight / 2) + 100);
+  button.position((windowWidth / 2) + 20, 3*(windowHeight / 4);
   button.mousePressed(changeLink);
   button.style('background:white');
   button.style('border:1px solid black')
+  button.style('font-size:20px');
 
 }
 
