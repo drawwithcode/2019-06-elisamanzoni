@@ -79,7 +79,7 @@ function setup() {
 
   //link
   button = createButton('click me to discover the meanings of the words');
-  button.position((windowWidth / 2) + 20, 3*(windowHeight / 4);
+  button.position((windowWidth / 2) + 20, 3*(windowHeight / 4));
   button.mousePressed(changeLink);
   button.style('background:white');
   button.style('border:1px solid black')
