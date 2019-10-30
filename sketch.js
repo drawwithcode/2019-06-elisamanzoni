@@ -36,7 +36,7 @@ function setup() {
   radio.option('Ineffable');
   radio.option('Nefarious');
   radio.style('width', '85px');
-  radio.style('font-style', '20px');
+  radio.style('font-style', '30px');
   radio.position(windowWidth / 2, 100);
   textAlign(CENTER);
 
@@ -45,7 +45,7 @@ function setup() {
   radio2.option('purple');
   radio2.option('orange');
   radio2.option('green');
-  radio2.style('font-style', '20px');
+  radio2.style('font-style', '30px');
   radio2.position(windowWidth / 2, 0);
   radio2.style('width', '70px');
 
@@ -54,7 +54,7 @@ function setup() {
   radio3.option('blue');
   radio3.option('white');
   radio3.option('red');
-  radio3.style('font-style', '20px');
+  radio3.style('font-style', '30px');
   radio3.position(3 * (windowWidth / 4), 100);
   radio3.style('width', '65px');
 
@@ -63,7 +63,7 @@ function setup() {
   radio4.option('lightGreen');
   radio4.option('lightGray');
   radio4.option('darkRed');
-  radio4.style('font-style', '20px');
+  radio4.style('font-style', '30px');
   radio4.position(3 * (windowWidth / 4), 0);
   radio4.style('width', '100px');
 
